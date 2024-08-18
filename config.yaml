@@ -1,0 +1,7 @@
+baseURL: https://ntrolls.github.io/
+languageCode: ko-KR
+title: Told by an idiot.
+theme: 
+   - paper
+publishdir: public
+paginate: 5
