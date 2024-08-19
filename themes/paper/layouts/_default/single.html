@@ -34,6 +34,8 @@
   </footer>
   {{ end }}
 
+  {{ partial "comment.html" . }}
+
   <!-- Post Nav -->
   {{ if not site.Params.disablePostNavigation }}<!---->
   {{ $pages := where site.RegularPages "Type" "in" site.Params.mainSections }}<!---->
