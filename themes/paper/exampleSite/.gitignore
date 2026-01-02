@@ -24,6 +24,8 @@ _testmain.go
 *.exe
 *.test
 
+**/.DS_Store
+
 /public
 /themes
 .DS_Store
