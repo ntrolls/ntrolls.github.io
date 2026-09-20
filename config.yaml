@@ -5,3 +5,20 @@ theme:
    - paper
 publishdir: public
 paginate: 5
+
+markup:
+  goldmark:
+    extensions:
+      passthrough:
+        delimiters:
+          block:
+          - - '\['
+            - '\]'
+          - - $$
+            - $$
+          inline:
+          - - '\('
+            - '\)'
+        enable: true
+params:
+  math: true
