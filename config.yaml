@@ -12,11 +12,9 @@ markup:
       passthrough:
         delimiters:
           block:
-          - - '\['
-            - '\]'
-          inline:
           - - $$
             - $$
+          inline:
+          - - $
+            - $
         enable: true
-params:
-  math: true
