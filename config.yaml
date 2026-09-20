@@ -14,11 +14,9 @@ markup:
           block:
           - - '\['
             - '\]'
+          inline:
           - - $$
             - $$
-          inline:
-          - - '\('
-            - '\)'
         enable: true
 params:
   math: true
