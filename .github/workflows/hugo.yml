@@ -15,6 +15,23 @@ permissions:
   pages: write
   id-token: write
 
+markup:
+  goldmark:
+    extensions:
+      passthrough:
+        delimiters:
+          block:
+          - - '\['
+            - '\]'
+          - - $$
+            - $$
+          inline:
+          - - '\('
+            - '\)'
+        enable: true
+params:
+  math: true
+  
 # Allow one concurrent deployment
 concurrency:
   group: "pages"
